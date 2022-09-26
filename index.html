@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="style/assets/favicon-32x32.png">
+  <title>Frontend Mentor | Space tourism website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/home.css">
+  
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+
+  <nav class="navbar navbar-dark navbar-expand-md">
+    <div class="container-fluid">
+      <div class="navbar-brand nav-icon">
+        <img class="icon-img" src="style/assets/home/nav-icon.svg" alt="nav-icon">
+      </div>
+      <div class="nav-line"></div>
+      <button class="navbar-toggler nav-mb-button" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end nav-rightside" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+          <button type="button" class="btn-close btn-close-white m-1" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link nav-items active" href="index.html"><b>00</b> HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-items destination" href="#"><b>01</b> DESTINATION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-items" href="#" id="crew"><b>02</b> CREW</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-items" href="#" id="technology"><b>03</b> TECHNOLOGY</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- HOME -->
+
+  <div id="body">
+    <div class="container-fluid">
+      <div class="row mx-0">
+        <div class="col-lg-6 home-text">
+          <h6 class="home-text-head">SO, YOU WANT TO TRAVEL TO</h6>
+          <h1 class="home-text-bighead">SPACE</h1>
+          <p class="home-text-pharagh">Let’s face it; if you want to go to space, you might as well genuinely go to
+            outer
+            space and not hover kind
+            of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!
+          </p>
+        </div>
+        <div class="col-lg-6 home-exp">
+          <a class="home-exp-btn btn btn-light destination" href="#">EXPLORE</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+ 
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
