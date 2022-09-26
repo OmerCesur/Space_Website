@@ -1,0 +1,96 @@
+body {
+    background: url("assets/crew/background-crew-desktop.jpg");
+    background-size: cover;
+}
+
+h4 {
+    font-family: 'Bellefair';
+    font-size: 32px;
+    opacity: 0.5;
+}
+
+.header-right {
+    padding: 40px 0 60px 0;
+}
+
+.bottom-buttons {
+    display: block;
+    position: absolute;
+    bottom: 50px;
+}
+
+.bottom-buttons-item {
+    background-color: rgba(255, 255, 255, 0.17);
+    padding: 0px 9px;
+    margin-right: 25px;
+    border-radius: 100%;
+    color: rgba(255, 255, 255, 0);
+    text-decoration: none;
+}
+
+.bottom-buttons-item:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0);
+}
+
+.active-bottom-buttons {
+    background-color: white;
+    color: white;
+}
+
+.img-part {
+    height: 513px;
+    text-align: center;
+}
+
+.com-img {
+    height: 100%;
+
+}
+
+@media (max-width:990px) {
+    body {
+        background: url("assets/crew/background-crew-tablet.jpg");
+        background-size: cover;
+    }
+    .crew-section{
+        text-align: center;
+    }
+    .bottom-buttons{
+        margin-left: 27%;
+        bottom: 30px;
+    }
+    .img-part{
+        margin-top:  120px ;
+    }
+}
+
+@media (max-width:768px) {
+    body {
+        background: url("assets/crew/background-crew-mobile.jpg");
+        background-size: cover;
+    }
+    .header-right{
+        text-align: center;
+    }
+    .bottom-buttons{
+        bottom: -30px;
+        margin-left: 23%;
+    }
+    .com-img{
+        height: 70%;
+        position: absolute;
+        top: 185px;
+        left: 20%;
+    }
+    .img-part{
+        margin: auto;
+    }
+    .crew-section{
+        position: absolute;
+        top: 700px;
+    }
+    .row{
+        padding: 0 !important;
+    }
+}

@@ -1,0 +1,89 @@
+body {
+    background: url("assets/destination/background-destination-desktop.jpg");
+    background-size: cover;
+    color: white;
+}
+
+
+/* DESTİNATİON */
+.col-lg-6 {
+    padding: 0%;
+}
+
+.left-col {
+    padding: 30px 0px 0px 166px;
+}
+
+
+.img {
+    width: 60%;
+    margin: 60px 0 0 65px;
+}
+
+.buttons {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.buttons-item {
+    color: #D0D6F9;
+    display: inline-block;
+    padding: 13px 0px !important;
+    margin-left: 0%;
+}
+
+.right-moon-header {
+    font-family: 'Bellefair';
+    font-size: 100px;
+}
+
+h6 {
+    font-family: 'Barlow Condensed';
+    font-size: 14px;
+    letter-spacing: 2.3625px;
+    color: #D0D6F9;
+}
+
+h5 {
+    font-family: 'Bellefair';
+    font-size: 28px;
+}
+
+hr {
+    margin: 13px 0;
+}
+
+@media (max-width:990px) {
+
+    body {
+        background: url("assets/destination/background-destination-tablet.jpg");
+        background-size: cover;
+    }
+    .right-col {
+        text-align: center;
+        padding: 0 15%;
+    }
+    .moon-header{
+        position: relative;
+        right: 100px;
+    }
+}
+
+
+
+@media (max-width:768px) {
+    body {
+        background: url("assets/destination/background-destination-mobile.jpg");
+        background-size: cover;
+    }
+    .moon-header{
+        position: static;
+    }
+    .left-col{
+        padding:0%;
+        text-align: center;
+    }
+    .moon-img{
+        margin-left: 0%;
+    }
+}

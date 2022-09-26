@@ -1,0 +1,77 @@
+body {
+    background-image: url("assets/home/background-home-desktop.jpg");
+    background-size: cover;
+    color: white;
+}
+
+
+/* HOME */
+
+.home-text {
+    padding: 120px 50px 0px 11%;
+}
+
+.home-exp {
+    padding: 0%;
+}
+
+.home-text-head {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 4.725px;
+    color: #D0D6F9;
+}
+
+.home-text-bighead {
+    font-family: 'Bellefair';
+    font-size: 150px;
+}
+
+.home-text-pharagh {
+    font-family: 'Barlow';
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+}
+
+.home-exp-btn {
+    padding: 119px 64px;
+    border-radius: 100%;
+    font-family: 'Bellefair';
+    font-size: 32px;
+    letter-spacing: 2px;
+    background: url("assets/destination/image-moon.png");
+    background-size: cover;
+    color: white;
+    line-height: 37px;
+    margin: 25% 0 0 35%;
+}
+.home-exp-btn:hover{
+    box-shadow: 0px 0px 0px 80px rgba(255,255,255,0.1);
+    color: white !important; 
+}
+@media (max-width:990px){
+
+    body{
+        background:url("assets/home/background-home-tablet.jpg");
+        background-size: cover;
+    }
+    .home-text{
+        text-align: center;
+        padding-right: 11%;
+    }
+    .home-text-pharagh{
+        padding: 0 16%;
+    }
+    .home-exp-btn{
+        margin-top: 10%;
+    }
+}
+@media (max-width:768px){
+.home-exp-btn{
+    margin-left: 25%;
+}
+
+}

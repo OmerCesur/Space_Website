@@ -1,0 +1,93 @@
+body {
+    background: url("assets/technology/background-technology-desktop.jpg");
+    background-size: cover;
+}
+
+.tech-top-header {
+    margin: 3% 0 4% 10%;
+}
+
+.tech-buttons {
+    display: block;
+    font-size: 2rem;
+    border: 1px rgba(255, 255, 255, 0.25) solid;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 100%;
+    color: white;
+    padding: 16px 31px;
+    margin: 0 0 30px 70%;
+}
+
+.tech-buttons:hover {
+    border-color: white;
+}
+
+.tech-buttons-active {
+    color: black;
+    background-color: white;
+}
+
+.middle-top-header {
+    font-family: 'Barlow Condensed';
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    color: #D0D6F9;
+}
+
+.tech-img {
+    width: 80%;
+    position: relative;
+    bottom: 20%;
+}
+
+@media (max-width:990px){
+    body {
+        background: url("assets/technology/background-technology-tablet.jpg");
+        background-size: cover;
+    }
+
+    .tech-buttons {
+        display: inline;
+        margin: 16px;
+    }
+
+    .buttons-tech {
+        text-align: center;
+    }
+
+    .tech-img {
+        /* content: url("assets/technology/image-vehicle-landscape.jpg"); */
+        width: 100%;
+        position: absolute;
+        right: 0px;
+        bottom: 400px;
+    }
+
+    .whole-content {
+        position: absolute;
+        top: 650px;
+
+    }
+
+    .tech-section {
+        text-align: center;
+    }
+}
+
+@media (max-width:768px) {
+    body {
+        background: url("assets/technology/background-technology-mobile.jpg");
+        background-size: cover;
+    }
+    
+
+    .tech-top-header {
+        text-align: center;
+        margin: auto;
+    }
+
+    .whole-content {
+        top: 550px;
+    }
+
+}
