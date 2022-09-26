@@ -25,9 +25,13 @@ function tech(techs) {
     });
 };
 
+if (window.innerWidth < 990) {
+    $(".tech-img").attr("src", "style/assets/technology/image-vehicle-landscape.jpg");
+}
+
 function test() {
     if (window.innerWidth < 990) {
-        
+
         document.querySelector(".tech-img").setAttribute("src", "style/assets/technology/image-" + document.getElementsByClassName("tech-buttons-active")[0].getAttribute("id") + "-landscape.jpg");
     } else {
         document.querySelector(".tech-img").setAttribute("src", "style/assets/technology/image-" + document.getElementsByClassName("tech-buttons-active")[0].getAttribute("id") + "-portrait.jpg");
