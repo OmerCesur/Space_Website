@@ -32,7 +32,7 @@ $("#capsule").click(function () {
 });
 
 function test() {
-    if (window.innerWidth < 800) {
+    if (window.innerWidth < 990) {
         
         document.querySelector(".tech-img").setAttribute("src", "style/assets/technology/image-" + document.getElementsByClassName("tech-buttons-active")[0].getAttribute("id") + "-landscape.jpg");
     } else {
