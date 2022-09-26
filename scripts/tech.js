@@ -25,12 +25,6 @@ function tech(techs) {
     });
 };
 
-$("#capsule").click(function () {
-    if (window.innerWidth < 990) {
-        $(".tech-img").attr("src", "style/assets/technology/image-capsule-landscape.jpg");
-    }
-});
-
 function test() {
     if (window.innerWidth < 990) {
         
