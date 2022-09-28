@@ -34,7 +34,7 @@ body {
 
 .right-moon-header {
     font-family: 'Bellefair';
-    font-size: 100px;
+    font-size: 6.25rem;
 }
 
 h6 {
@@ -83,7 +83,13 @@ hr {
         padding:0%;
         text-align: center;
     }
-    .moon-img{
+    .img{
         margin-left: 0%;
+    }
+    .right-moon-header{
+        font-size: 5rem;
+    }
+    .right-col{
+        padding: 0 20px;
     }
 }

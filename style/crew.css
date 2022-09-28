@@ -5,7 +5,7 @@ body {
 
 h4 {
     font-family: 'Bellefair';
-    font-size: 32px;
+    font-size: 2rem;
     opacity: 0.5;
 }
 
@@ -14,9 +14,9 @@ h4 {
 }
 
 .bottom-buttons {
-    display: block;
+    
     position: absolute;
-    bottom: 50px;
+    top: 540px;
 }
 
 .bottom-buttons-item {
@@ -57,8 +57,9 @@ h4 {
         text-align: center;
     }
     .bottom-buttons{
-        margin-left: 27%;
-        bottom: 30px;
+        width: 58,3%;
+        text-align: center;
+        margin: 0 12.5px;
     }
     .img-part{
         margin-top:  120px ;
@@ -69,19 +70,26 @@ h4 {
     body {
         background: url("assets/crew/background-crew-mobile.jpg");
         background-size: cover;
+        background-attachment: fixed;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    h4{
+        font-size: 1.75rem;
     }
     .header-right{
         text-align: center;
     }
     .bottom-buttons{
-        bottom: -30px;
-        margin-left: 23%;
+        top: 660px;
+        margin-left: 25%;
     }
     .com-img{
         height: 70%;
-        position: absolute;
+        /* position: absolute;
         top: 185px;
-        left: 20%;
+        left: 20%; */
     }
     .img-part{
         margin: auto;

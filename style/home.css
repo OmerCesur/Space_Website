@@ -26,7 +26,7 @@ body {
 
 .home-text-bighead {
     font-family: 'Bellefair';
-    font-size: 150px;
+    font-size: 9.375rem;
 }
 
 .home-text-pharagh {
@@ -48,30 +48,44 @@ body {
     line-height: 37px;
     margin: 25% 0 0 35%;
 }
-.home-exp-btn:hover{
-    box-shadow: 0px 0px 0px 80px rgba(255,255,255,0.1);
-    color: white !important; 
-}
-@media (max-width:990px){
 
-    body{
-        background:url("assets/home/background-home-tablet.jpg");
+.home-exp-btn:hover {
+    box-shadow: 0px 0px 0px 80px rgba(255, 255, 255, 0.1);
+    color: white !important;
+}
+
+@media (max-width:990px) {
+
+    body {
+        background: url("assets/home/background-home-tablet.jpg");
         background-size: cover;
     }
-    .home-text{
+
+    .home-text {
         text-align: center;
         padding-right: 11%;
     }
-    .home-text-pharagh{
+
+    .home-text-pharagh {
         padding: 0 16%;
     }
-    .home-exp-btn{
+
+    .home-exp-btn {
         margin-top: 10%;
     }
 }
-@media (max-width:768px){
-.home-exp-btn{
-    margin-left: 25%;
-}
+
+@media (max-width:768px) {
+
+    .home-exp{
+        text-align: center;
+    }
+    .home-exp-btn {
+        margin: 0;
+    }
+
+    .home-text-bighead {
+        font-size: 6rem;
+    }
 
 }

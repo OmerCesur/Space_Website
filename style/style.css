@@ -19,7 +19,7 @@ h3{
 }
 h2{
     font-family: 'Bellefair';
-    font-size: 56px;
+    font-size: 3.5rem;
 }
 
 /* NAV */
@@ -115,6 +115,7 @@ h2{
     
     .nav-rightside{
         height: auto;
+        width: 70% !important;
     }
    
 }

@@ -40,7 +40,7 @@ body {
     bottom: 20%;
 }
 
-@media (max-width:990px){
+@media (max-width:990px) {
     body {
         background: url("assets/technology/background-technology-tablet.jpg");
         background-size: cover;
@@ -59,7 +59,7 @@ body {
         width: 100%;
         position: absolute;
         right: 0px;
-        bottom: 400px;
+        bottom: 105%;
     }
 
     .whole-content {
@@ -77,8 +77,12 @@ body {
     body {
         background: url("assets/technology/background-technology-mobile.jpg");
         background-size: cover;
+        background-attachment: fixed;
     }
-    
+
+    .tech-img {
+        bottom: 100%;
+    }
 
     .tech-top-header {
         text-align: center;
@@ -86,7 +90,7 @@ body {
     }
 
     .whole-content {
-        top: 550px;
+        top: 350px;
     }
 
 }
